@@ -10,6 +10,11 @@ fi
 
 filename=$1
 
+if [ -d "$filename" ];then
+	echo "Error: Input only filename"
+	exit 1
+fi
+
 
 if [ ! -e "$filename" ]; then # Checks -e file exist or not.
         echo "Error: File '$filename' dose not exist."

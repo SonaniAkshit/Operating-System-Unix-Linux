@@ -1,4 +1,4 @@
-#Program 24.
+#Program 24
 ############
 #Accept filename as command line argument & display its permissions for 
 #read , write or execute otherwise display appropriate messages.

@@ -1,4 +1,4 @@
-# Program 25
+# Program 25.
 # Write a shell script which recursively delete *.obj , *.lst or all files with length of zero bytes.
 
 choice=''
